@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+
+long  int fib(int n) { 
+ if (n == 0) 
+ volver 0; 
+ más 
+ if (n == 1) 
+ volver 1; 
+ más 
+ devolver fib(n - 2) + fib(n - 1 ); 
+ }
+ 
+ int main(){
+ 	int n;
+ 	printf("Ingresa un valor para sacar el fib");
+ 	scanf("%i",&n);
+ 	printf("El Fibonacci de %i es : %i",n,fib(n));
+ }
